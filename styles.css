@@ -17,18 +17,25 @@ padding:16px;
 
 .painel { background:#fff; 
 background:#fff;
-border-radius:8px; box
-shadow:0 2px 8px 
-rgba(0,0,0,.1); 
+border-radius:8px;
+ box-shadow:0 2px 8px rgba(0,0,0,.1); 
 padding:12px;
  }
-.painel h2 { font-size:16px;
+
+.painel h2 {
+     font-size:16px;
      size:16px;
       color:#333;
      } 
 
-a.footer-link:hover { color:#000000;
+a.footer-link:hover {
+     color:#000000;
      background:#e70303;
      }
-a.footer-link:focus { outline:2px solid #F5A3A3;
+
+a.footer-link:focus {
+     outline:2px solid #F5A3A3;
+ }
+ a[href^="http"]::before { 
+    content: ""
  }
